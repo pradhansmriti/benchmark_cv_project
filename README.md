@@ -23,9 +23,16 @@ rare states and kinetics right.
 
 The `docs/` folder is kept in sync with the project's Claude workspace notes.
 
+## Current status
+
+Exploring `docs/lit-review` for existing work: what's missing, and what can we do?
+
+
 ## Setup
 
 ```bash
 uv venv && uv pip install -e ".[dev]"
 pytest
 ```
+
+
