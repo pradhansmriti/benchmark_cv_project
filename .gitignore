@@ -1,0 +1,13 @@
+__pycache__/
+*.egg-info/
+.venv/
+.env
+wandb/
+data/
+checkpoints/
+outputs/
+*.pt
+*.ckpt
+*.h5
+*.npz
+.ipynb_checkpoints/
