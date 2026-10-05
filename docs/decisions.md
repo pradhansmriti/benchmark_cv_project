@@ -6,3 +6,5 @@
 | 2026-10-01 | Aim for a safe, finished paper for ICLR 2027 workshops (~Feb 1 2027). Leading candidate: "marginals hide failures" (2D analytic potentials + released alanine dipeptide checkpoints). Full benchmark moves to MLSB Sept 2027. |
 | 2026-10-01 | Set aside capsid assembly, learned-CV weighted ensemble, PLBAP kinetics extension. |
 | 2026-10-01 | Baseline picks: transferable-samplers, BoltzNCE, Two-for-One, Timewarp. |
+| 2026-10-01 | Framing accepted: reported sampler evaluations are low-dimensional and qualitative (Ramachandran is itself a marginal); the paper makes them quantitative. |
+| 2026-10-01 | Kinetics section (Exp 4) on hold; the paper covers equilibrium sampling only for now. |
