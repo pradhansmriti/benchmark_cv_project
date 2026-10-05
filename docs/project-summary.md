@@ -1,6 +1,6 @@
 # Project summary
 
-_Last synced: 2026-10-01_
+_Last synced: 2026-10-05_
 
 ## Goal
 A benchmark of ML molecular samplers that goes beyond marginals: joint KL/MMD, metastable
@@ -10,6 +10,11 @@ state populations, implied timescales and mode coverage.
 A safe, finished paper for **ICLR 2027 workshops (~Feb 1 2027, soft target)** that can be built on later.
 Leading candidate: **"Marginals hide failures"**: controlled failures on 2D analytic potentials plus
 released alanine dipeptide checkpoints, with no training of molecular models.
+Working title: *Marginals hide failures: quantitative evaluation of molecular samplers beyond the Ramachandran plot*.
+Framing (accepted 2026-10-01): reported sampler evaluations are low-dimensional and qualitative (the
+Ramachandran plot is itself a marginal); this paper makes them quantitative.
+Scope is **equilibrium-only for now**: the kinetics section is on hold (decided 2026-10-01).
+Abstract and experiment plan: [plan/abstract-and-experiments.md](plan/abstract-and-experiments.md).
 The full benchmark (chignolin / deca-alanine, kinetics across classes) moves to **MLSB / LMRL at NeurIPS 2027 (~Sept 2027)**.
 
 ## Methods and baselines
@@ -24,7 +29,7 @@ Boltzmann generators, per-state populations or analytic potentials. See [lit-rev
 
 ## Open design questions
 - Ground truth must match each checkpoint's training MD (force field, solvent, temperature, coarse-graining).
-- Equilibrium-only samplers have no time axis, so their "kinetics" column uses barrier height and
+- Kinetics is on hold. If it returns: equilibrium-only samplers have no time axis, so their "kinetics" column uses barrier height and
   transition-region density instead of implied timescales.
 
 ## Set aside
